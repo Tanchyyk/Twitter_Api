@@ -15,7 +15,7 @@
 
 Html-сторінка "opening_page.html" містить форму для введення імені користувача. Локації декілької із підписок цього користувача будуть згодом відображатись на мапі.
 ```
-<form action="/create_map" method="POST">
+<form action="/create_map" autocomplete="off" method="POST">
       <label for="user_name">User name:</label><br>
       <input type="text" id="user_name" name="user_name"><br>
       <input type="submit" value="Submit">
